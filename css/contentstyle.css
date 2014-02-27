@@ -1,0 +1,73 @@
+body {
+	font-family: "Open Sans", Arial, sans-serif;
+	background: #fff; 
+	color: #585858;
+	background-position: center top;
+	margin: 0px 0px 0px 0px;
+	min-width:960px;
+	/*overflow-x:hidden;*/
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
+	padding: 0px;
+	margin: 0px;
+}
+/*
+* Paragraf
+*/
+p {font-size: 90%; font-weight: 300; color:#000; line-height: 22px;}
+/*
+* Link
+*/
+a, a:visited {text-decoration: none; color: #585858;}
+/*
+* Headings
+*/
+h3 {font-size: 24px; font-family: "Crete Round", Georgia, serif; font-weight: 400; padding: 20px 0;}
+h4 {font-size: 18px;}
+h5 {font-size: 16px; padding-bottom: 10px;}
+h6 {font-size: 14px; padding-bottom: 10px; font-weight: bold;}
+/*
+* Inputs
+*/
+input,label, textarea,select,button {width: 220px;  margin: 5px; padding: 0;}
+input, textarea,select {border: 1px solid #ddd; outline: none;/*This was added to get rid of yellow chrome text border!*/}
+label {font-size: 12px; font-weight: bold; }
+input[type="checkbox"]{width: 20px;}
+input:focus, textarea:focus {border-color: #b6b6b6;}
+input[type="text"],input[type="password"]{  padding : 5px; height:15px;width:220px;margin: 10px;}
+select {padding : 5px; height:30px;margin: 10px;}
+input[type="submit"],input[type="button"],button
+{
+  	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: #ffffff;
+	background-color: #008080;	
+	padding-left : 20px; 
+	padding-right : 20px;
+	padding-top : 5px;   
+	padding-bottom : 5px;   
+}
+input[type='submit']:hover,input[type="button"]:hover,button:hover {background: #ff6a00; color: #fff;}
+input.error, textarea.error {border-color: #cc4847;}
+.error
+{
+color:#cc4847;
+font-size:10px;
+}
+fieldset
+{
+   clear:both;
+   margin-left:4px;
+   padding:60px;
+   padding-top:10px;
+   padding-bottom:10px;
+   border:1px solid #ccc;
+}
+/*
+* capture spam
+*/
+.spmhidip 
+{
+display:none;
+}
