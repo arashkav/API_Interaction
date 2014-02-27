@@ -161,8 +161,7 @@ class Loginmember{
 	/*
 	This method returns login session token variable
     */
-	function GetLoginSessionTokenVar()
-    {
+    function GetLoginSessionTokenVar(){
         $retvar = md5($this->rand_key);
         $retvar = 'toekn_'.substr($retvar,0,10);
         return $retvar;
